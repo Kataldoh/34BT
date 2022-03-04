@@ -16,7 +16,8 @@ namespace UnityCore
                               
         {
             ST_01, //ST sta per soundtrack
-            AMB_01, //AMB sta per ambience
+            AMB_01,
+            AMB_02,//AMB sta per ambience
             SFX_01, // SFX sta per sound effect
             SFX_02,
             None,

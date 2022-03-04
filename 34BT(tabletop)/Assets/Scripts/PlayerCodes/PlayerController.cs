@@ -44,19 +44,16 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1f, Color.red);
-        Debug.DrawRay(transform.position, transform.TransformDirection(-Vector3.forward) * 1f, Color.red);
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.left) * 1f, Color.red);
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * 1f, Color.red);
-
-        
-
+       
         Movement();
 
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
 
         
     }
+
+
+  
 
     public void Movement()
     {
@@ -65,7 +62,7 @@ public class PlayerController : MonoBehaviour
         if (Vector3.Distance(transform.position, movePoint.position) == 0f)
         {
 
-            if ((Input.GetAxisRaw("Horizontal")) == 1f)
+            if ((Input.GetAxisRaw("Horizontal")) == 1f && CanMoveRight)
             {
                 MoveRight = true;
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
@@ -78,7 +75,7 @@ public class PlayerController : MonoBehaviour
             }
 
 
-            if ((Input.GetAxisRaw("Horizontal")) == -1f)
+            if ((Input.GetAxisRaw("Horizontal")) == -1f && CanMoveLeft)
             {
                 MoveLeft = true;
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
@@ -91,7 +88,7 @@ public class PlayerController : MonoBehaviour
             }
 
 
-            if ((Input.GetAxisRaw("Vertical")) == 1f)
+            if ((Input.GetAxisRaw("Vertical")) == 1f && CanMoveFront)
             {
 
                 MoveFront = true;
@@ -105,7 +102,7 @@ public class PlayerController : MonoBehaviour
             }
 
 
-            if ((Input.GetAxisRaw("Vertical")) == -1f)
+            if ((Input.GetAxisRaw("Vertical")) == -1f && CanMoveBack)
             {
 
                 MoveBack = true;
@@ -120,8 +117,5 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void CheckSurrounding()
-    {
-        
-    }
+   
 }

@@ -12,11 +12,15 @@ namespace UnityCore
             public SoundManager soundManager;
 
 
+           
+
             private void Update()
+
             {
                 if (Input.GetKeyDown(KeyCode.T))
                 {
-                    soundManager.PlayAudio(AudioType.ST_01);
+                    soundManager.PlayAudio(AudioType.AMB_01);
+                    soundManager.PlayAudio(AudioType.AMB_02);
                 }
                 if (Input.GetKeyDown(KeyCode.G))
                 {
