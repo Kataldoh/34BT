@@ -1,0 +1,766 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Core' Language: 'it' Physical Memory: 16168 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Desktop/My project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53450
+Successfully changed project path to: C:/Users/User/Desktop/My project
+C:/Users/User/Desktop/My project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 88.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.29f1 (2ff179115da0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/My project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004477 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1202ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (925ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (312ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (32ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 61.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.427 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1428ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1134ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (483ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2810 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 125.5 MB.
+System memory in use after: 125.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3243.
+Total: 4.158500 ms (FindLiveObjects: 0.263600 ms CreateObjectMapping: 0.218600 ms MarkObjects: 3.581400 ms  DeleteObjects: 0.094000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.033287 seconds 
+  Import took 0.038634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.749106 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7c01bc8ed57adf1ede3d700e613d7f') in 0.003387 seconds 
+  Import took 0.008671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.486642 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(5c15d76152d7ec940959929082ea74ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(5c15d76152d7ec940959929082ea74ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce292a3eb2d0769807fdb75244504f15') in 0.003753 seconds 
+  Import took 0.008674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.322052 seconds.
+  path: Assets/Scenes/PRIMO LIVELLO.unity
+  artifactKey: Guid(2938bf6d3654a8241863ae54e9dd6319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PRIMO LIVELLO.unity using Guid(2938bf6d3654a8241863ae54e9dd6319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2099ba656ffdb2853bd51d9787e8f8a6') in 0.003014 seconds 
+  Import took 0.010536 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1168ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (944ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (348ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2740 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.5 MB.
+System memory in use after: 119.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 4.012600 ms (FindLiveObjects: 0.265100 ms CreateObjectMapping: 0.195200 ms MarkObjects: 3.522300 ms  DeleteObjects: 0.029000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 256.435748 seconds.
+  path: Assets/3D Models
+  artifactKey: Guid(61c5fe54cbd6be044aa100e85f5ab046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models using Guid(61c5fe54cbd6be044aa100e85f5ab046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e8a33faa81c6970cc7c897b5d4d939') in 0.008692 seconds 
+  Import took 0.017074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.417522 seconds.
+  path: Assets/3D Models/Tileset
+  artifactKey: Guid(b3b356ab7d972974696711cb99ab8630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset using Guid(b3b356ab7d972974696711cb99ab8630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b198f1a2ae022a18a8b7ea3e823a041f') in 0.002479 seconds 
+  Import took 0.008492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.742507 seconds.
+  path: Assets/3D Models/Tileset/Barile A.obj
+  artifactKey: Guid(368b99f70f005f644968251a6dcd9016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Barile A.obj using Guid(368b99f70f005f644968251a6dcd9016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbae4ad690ee01d138096c262ed30922') in 0.852465 seconds 
+  Import took 0.861881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 06.obj
+  artifactKey: Guid(f0a88997e2ea8e044a02d7f546c18aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 06.obj using Guid(f0a88997e2ea8e044a02d7f546c18aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43954759ffb3892d0c92df8c690b0867') in 0.039204 seconds 
+  Import took 0.043949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 03.obj
+  artifactKey: Guid(68e660792a61bed40b3ed330686fd0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 03.obj using Guid(68e660792a61bed40b3ed330686fd0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0448f0cfd92e6c847f8ed73cb0a0f69c') in 0.046127 seconds 
+  Import took 0.051445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/3D Models/Tileset/Barile B.obj
+  artifactKey: Guid(36230538a1583f84cb1f3d524bc1e5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Barile B.obj using Guid(36230538a1583f84cb1f3d524bc1e5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79049b206a7883e1b959c9894441054e') in 0.035644 seconds 
+  Import took 0.040759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/3D Models/Tileset/Blocco sabbia 05.obj
+  artifactKey: Guid(a20081d51fa17904d8461c9c3f8c7f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco sabbia 05.obj using Guid(a20081d51fa17904d8461c9c3f8c7f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cf0a73f9ef8c9a1af89795ea8f4948') in 0.035974 seconds 
+  Import took 0.041383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/3D Models/Tileset/Blocco sabbia 06.obj
+  artifactKey: Guid(1f461e2e375037b40a6e92e5324d82a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco sabbia 06.obj using Guid(1f461e2e375037b40a6e92e5324d82a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b3b24682f024a2262df7381bd8fe36') in 0.038305 seconds 
+  Import took 0.043572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/3D Models/Tileset/Cassa.obj
+  artifactKey: Guid(f4252daf3b822154aabc4e78ca326465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Cassa.obj using Guid(f4252daf3b822154aabc4e78ca326465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01161f8b33733d4de72ecf9323a7b889') in 0.042520 seconds 
+  Import took 0.048010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 05.obj
+  artifactKey: Guid(2900b138523d24641a9072a888256857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 05.obj using Guid(2900b138523d24641a9072a888256857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e2c4a8bec56083e8885affae142989') in 0.035340 seconds 
+  Import took 0.041333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 01.obj
+  artifactKey: Guid(3a37fd05a368e9e46aa671124e52c884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 01.obj using Guid(3a37fd05a368e9e46aa671124e52c884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5500f4f14d57c21c9c2f1345e25c0ca4') in 0.031374 seconds 
+  Import took 0.036848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/3D Models/Tileset/Blocco sabbia 01.obj
+  artifactKey: Guid(1b948faab6e05cb459a7b04534dee771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco sabbia 01.obj using Guid(1b948faab6e05cb459a7b04534dee771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d5b3a1c1f62baa3b0430e252b722a6') in 0.032455 seconds 
+  Import took 0.037780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/3D Models/Tileset/Blocco sabbia 03.obj
+  artifactKey: Guid(4e183cbcb2e04494cb2f3b3d3dd3a4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco sabbia 03.obj using Guid(4e183cbcb2e04494cb2f3b3d3dd3a4b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0801ad4b2a1f8a4359c03f0465a1ed65') in 0.036730 seconds 
+  Import took 0.042993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 04.obj
+  artifactKey: Guid(46bbab0a3fcde7b48bb299166009b16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 04.obj using Guid(46bbab0a3fcde7b48bb299166009b16f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9249f9ea15694de1db5fee61f11178') in 0.032891 seconds 
+  Import took 0.038718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/3D Models/Tileset/Blocco sabbia 02.obj
+  artifactKey: Guid(83050b28fbb21124ba77d770d9b1fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco sabbia 02.obj using Guid(83050b28fbb21124ba77d770d9b1fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20e2d19b65d34760418d2e4bfbfe44b') in 0.038425 seconds 
+  Import took 0.043974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/3D Models/Tileset/Blocco sabbia 04.obj
+  artifactKey: Guid(8a3286ac0e4c35b4c92ac92e5e171b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco sabbia 04.obj using Guid(8a3286ac0e4c35b4c92ac92e5e171b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17258e4fb1439d4ccfb50a8cb29cc475') in 0.035074 seconds 
+  Import took 0.040813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/3D Models/Tileset/Cartello.obj
+  artifactKey: Guid(0707e68c77fa1f944ace02d8584490c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Cartello.obj using Guid(0707e68c77fa1f944ace02d8584490c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bf9a933b69a59127fb0f9d864c5c55') in 0.033556 seconds 
+  Import took 0.039003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 02.obj
+  artifactKey: Guid(3dd76e15f86617b46b785168b1cf16ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 02.obj using Guid(3dd76e15f86617b46b785168b1cf16ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644be843678399c64d958e4c3d398e7f') in 0.039699 seconds 
+  Import took 0.046911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.723141 seconds.
+  path: Assets/3D Models/Tileset/Chiave argento.obj
+  artifactKey: Guid(20d33fe1972d9284fbacc5a8b94729af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Chiave argento.obj using Guid(20d33fe1972d9284fbacc5a8b94729af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fd0b38efe21c758584d4c3c2691c04') in 0.038355 seconds 
+  Import took 0.045003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/3D Models/Tileset/Chiave d'oro.obj
+  artifactKey: Guid(61009d3d2d9a9624baf51d480772f3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Chiave d'oro.obj using Guid(61009d3d2d9a9624baf51d480772f3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed784afdaff9ccc8745f97af463f4f8') in 0.035081 seconds 
+  Import took 0.042877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/3D Models/Tileset/Ciocco di legna.obj
+  artifactKey: Guid(d8e85bb54944d3a45931c99602d22d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Ciocco di legna.obj using Guid(d8e85bb54944d3a45931c99602d22d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c0c8028c44bfe6ba509708697286c6') in 0.029612 seconds 
+  Import took 0.035361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/3D Models/Tileset/Componente pietra A.obj
+  artifactKey: Guid(49ba8793b3177794b81085f375ecb64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Componente pietra A.obj using Guid(49ba8793b3177794b81085f375ecb64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86ba8874eed0cbdaa0735ef4cebd995') in 0.028829 seconds 
+  Import took 0.034522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/3D Models/Tileset/Componente pietra B.obj
+  artifactKey: Guid(19a88e00825a4c447814a8b403c7066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Componente pietra B.obj using Guid(19a88e00825a4c447814a8b403c7066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1c7dbfbf0cc7f887b6f8a1cafc69f4') in 0.030563 seconds 
+  Import took 0.036460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/3D Models/Tileset/Freccia.obj
+  artifactKey: Guid(4a336bd8f4aa3ce4593ed85558db03c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Freccia.obj using Guid(4a336bd8f4aa3ce4593ed85558db03c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28037503ece15998e8b87c16c854c6eb') in 0.029314 seconds 
+  Import took 0.035250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018085 seconds.
+  path: Assets/3D Models/Tileset/Grata.obj
+  artifactKey: Guid(67fc1350c078813488612602436e9594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Grata.obj using Guid(67fc1350c078813488612602436e9594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f46eac21e9d744ae26b6f6ce7735e673') in 0.034228 seconds 
+  Import took 0.040354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/3D Models/Tileset/Libreria.obj
+  artifactKey: Guid(27339eb80ff6d174985e13120475459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Libreria.obj using Guid(27339eb80ff6d174985e13120475459e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33bc31d3612327b0f36143e0f1a73c1') in 0.031976 seconds 
+  Import took 0.037833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/3D Models/Tileset/Libro.obj
+  artifactKey: Guid(c0378b9e223c58049a6d3298b5cd219d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Libro.obj using Guid(c0378b9e223c58049a6d3298b5cd219d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907641b50c27da4e4f0a2c9230b5f360') in 0.029464 seconds 
+  Import took 0.034963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011790 seconds.
+  path: Assets/3D Models/Tileset/Meccanismo con leva.obj
+  artifactKey: Guid(77a30ab52a8c6764587cc7307400285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Meccanismo con leva.obj using Guid(77a30ab52a8c6764587cc7307400285a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ce334abadacc39cb6e8484ec441118') in 0.030048 seconds 
+  Import took 0.035901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/3D Models/Tileset/Muro.obj
+  artifactKey: Guid(2df00bacfc016fa499e4d9cb7264cb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Muro.obj using Guid(2df00bacfc016fa499e4d9cb7264cb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56229954a59dca9c51de4f11e11ef22d') in 0.030939 seconds 
+  Import took 0.036590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/3D Models/Tileset/Monete.obj
+  artifactKey: Guid(c6b191421def2fb4c9463fb2734c8fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Monete.obj using Guid(c6b191421def2fb4c9463fb2734c8fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77414e4cfb5d970c60e6f257009760b3') in 0.068659 seconds 
+  Import took 0.079185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.373949 seconds.
+  path: Assets/3D Models/Tileset/Pavimento con acqua.obj
+  artifactKey: Guid(bf0ca06d32bd0f145881f6b171904814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Pavimento con acqua.obj using Guid(bf0ca06d32bd0f145881f6b171904814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5178b0b4977dbf0205a802663edf6803') in 0.028598 seconds 
+  Import took 0.034183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/3D Models/Tileset/Pila di legna.obj
+  artifactKey: Guid(2e3c45355f7c9ef41905c5bf73a34824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Pila di legna.obj using Guid(2e3c45355f7c9ef41905c5bf73a34824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ff163a0da984771c1816eaf3a1f791') in 0.030898 seconds 
+  Import took 0.036229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/3D Models/Tileset/Pavimento pietra.obj
+  artifactKey: Guid(33a4186220096e8478a80569768138b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Pavimento pietra.obj using Guid(33a4186220096e8478a80569768138b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f646ca633edf1d8a103f5e7abe464551') in 0.032738 seconds 
+  Import took 0.038349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.467065 seconds.
+  path: Assets/3D Models/Tileset/Pila di libri.obj
+  artifactKey: Guid(9b173ddf5bd003740beaea7ae3e5b2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Pila di libri.obj using Guid(9b173ddf5bd003740beaea7ae3e5b2d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cfaaee688f2b7d3fbda9055e9a0960') in 0.063594 seconds 
+  Import took 0.069234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/3D Models/Tileset/Pilastro 01.obj
+  artifactKey: Guid(2072f993a9e597f47992dcf577c94551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Pilastro 01.obj using Guid(2072f993a9e597f47992dcf577c94551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fc17dd65821d8390be4ec1b44963a79') in 0.038458 seconds 
+  Import took 0.043847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/3D Models/Tileset/Pilastro 02.obj
+  artifactKey: Guid(675e9f1cc5385824a88110d4b7536613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Pilastro 02.obj using Guid(675e9f1cc5385824a88110d4b7536613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9e7da53c526106beccd8a8c4c41b4d') in 0.035321 seconds 
+  Import took 0.040770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.098791 seconds.
+  path: Assets/3D Models/Tileset/Pilastro 03.obj
+  artifactKey: Guid(d027dbe6640ca28469111af89889f599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Pilastro 03.obj using Guid(d027dbe6640ca28469111af89889f599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7a530337f315bcfeff23fa66d4db48') in 0.031449 seconds 
+  Import took 0.037188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/3D Models/Tileset/Scala.obj
+  artifactKey: Guid(5647ab47b3d62ef43bd1bc8f3fcbf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Scala.obj using Guid(5647ab47b3d62ef43bd1bc8f3fcbf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b502a24876d39ae22263010b3f5996') in 0.035114 seconds 
+  Import took 0.040384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/3D Models/Tileset/Pilastro 04.obj
+  artifactKey: Guid(4bc2ff76d23e0c94d9c2d0529c287a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Pilastro 04.obj using Guid(4bc2ff76d23e0c94d9c2d0529c287a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde2345fd98c4cd8c05b73a3f95464cd') in 0.043313 seconds 
+  Import took 0.049125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/3D Models/Tileset/Scaletta di pietra.obj
+  artifactKey: Guid(3dc0678e790a76b4889aef5db13ab376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Scaletta di pietra.obj using Guid(3dc0678e790a76b4889aef5db13ab376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ee7597089e3f30c6a11ec9dab173aa') in 0.036418 seconds 
+  Import took 0.042241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/3D Models/Tileset/Sgabello.obj
+  artifactKey: Guid(69e2f172cacf19b4dac8b88806696871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Sgabello.obj using Guid(69e2f172cacf19b4dac8b88806696871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1c265251cbf15a96ddef390780b02a8') in 0.034076 seconds 
+  Import took 0.039871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/3D Models/Tileset/Trappola.obj
+  artifactKey: Guid(48d018a6ffd103c4291f7a0b9ac6f08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Trappola.obj using Guid(48d018a6ffd103c4291f7a0b9ac6f08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69ab0cccf15b3c2decc3d8f294ffd84') in 0.033668 seconds 
+  Import took 0.039154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/3D Models/Tileset/Scodella.obj
+  artifactKey: Guid(82df1ec30738e0c4a862808fc8eda7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Scodella.obj using Guid(82df1ec30738e0c4a862808fc8eda7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2b7cdfef7c43ab39cc9a6b2d6e99dc') in 0.038057 seconds 
+  Import took 0.043434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/3D Models/Tileset/Vaso A.obj
+  artifactKey: Guid(eb28ad50311218e4bbc302df1ab2a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Vaso A.obj using Guid(eb28ad50311218e4bbc302df1ab2a0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8236b3c18138b46aac786b1930bb8d7') in 0.033610 seconds 
+  Import took 0.039125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/3D Models/Tileset/Tavolo.obj
+  artifactKey: Guid(c53b58a726e904549aa73afb41791f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Tavolo.obj using Guid(c53b58a726e904549aa73afb41791f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd4d4768a95f5182282c87a5f539778') in 0.037378 seconds 
+  Import took 0.042701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/3D Models/Tileset/Vasetto.obj
+  artifactKey: Guid(1fd44e5e0a3fb6c4d91ad12c0aee94bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Vasetto.obj using Guid(1fd44e5e0a3fb6c4d91ad12c0aee94bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99358badf48971a857ef2bf6dec03aa') in 0.037414 seconds 
+  Import took 0.042846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/3D Models/Tileset/Vaso B.obj
+  artifactKey: Guid(a1fb288f422de544fb3c101b6df4e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Vaso B.obj using Guid(a1fb288f422de544fb3c101b6df4e64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5853a2fee98721f543c5602de448aa24') in 0.034846 seconds 
+  Import took 0.040381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/3D Models/Tileset/Scrigno.obj
+  artifactKey: Guid(b9a231c9cc09de3458e6aafb098c71fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Scrigno.obj using Guid(b9a231c9cc09de3458e6aafb098c71fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742e5503e195e24c7951b579a1a40874') in 0.039166 seconds 
+  Import took 0.044478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/3D Models/Tileset/Sedia.obj
+  artifactKey: Guid(d40eec3f592bb3b40a7bd31876e64e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Sedia.obj using Guid(d40eec3f592bb3b40a7bd31876e64e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d14d9085256cc8b993248aad2caa8b') in 0.033347 seconds 
+  Import took 0.038685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/3D Models/Tileset/Tavolo grande.obj
+  artifactKey: Guid(afb9300eb721bc046b1085f8b22faa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Tavolo grande.obj using Guid(afb9300eb721bc046b1085f8b22faa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af939e6ab601ff98124d3825a1b1d26') in 0.037580 seconds 
+  Import took 0.042881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/3D Models/Tileset/Tronco.obj
+  artifactKey: Guid(cfeed519088b08346806f1b070ee5302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Tronco.obj using Guid(cfeed519088b08346806f1b070ee5302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaf2d3d3788a1122ffb028afc9e875c') in 0.039818 seconds 
+  Import took 0.045599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/3D Models/Tileset/Tavolo01.obj
+  artifactKey: Guid(d81574843de79fe478e2bb5a212e1fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Tavolo01.obj using Guid(d81574843de79fe478e2bb5a212e1fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda268f8f7ea069ea641905076bcd311') in 0.034217 seconds 
+  Import took 0.040586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/3D Models/Tileset/Steccato.obj
+  artifactKey: Guid(739a85f899387d84eac9f501860e8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Steccato.obj using Guid(739a85f899387d84eac9f501860e8359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218028f74e3ab7ea3adce24ec27c90a1') in 0.035544 seconds 
+  Import took 0.041271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/3D Models/Tileset/Scatola.obj
+  artifactKey: Guid(3ebfc51d0eb5b9442b052b6fe5bd2cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Scatola.obj using Guid(3ebfc51d0eb5b9442b052b6fe5bd2cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d3be1110b3b0995eb79edf7f73ae0a') in 0.037044 seconds 
+  Import took 0.042450 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003677 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1221ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (982ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2760 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.5 MB.
+System memory in use after: 126.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3394.
+Total: 3.951100 ms (FindLiveObjects: 0.254300 ms CreateObjectMapping: 0.187600 ms MarkObjects: 3.482200 ms  DeleteObjects: 0.025800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 420.929084 seconds.
+  path: Assets/3D Models/Tileset/New Prefab.prefab
+  artifactKey: Guid(b74cc5067e0ee3c4a96a3be1dd350e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/New Prefab.prefab using Guid(b74cc5067e0ee3c4a96a3be1dd350e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def9838e7293f5714dbfd2d64b7cbbc1') in 0.045416 seconds 
+  Import took 0.051733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 534.107290 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 01.prefab
+  artifactKey: Guid(6b9a77e147c13d743834aa5f866ef550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 01.prefab using Guid(6b9a77e147c13d743834aa5f866ef550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a41ba00eb0b67f88f6ebf6ae5ab4b2') in 0.177111 seconds 
+  Import took 0.183455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.745855 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 01 1.prefab
+  artifactKey: Guid(53f7db28c4459214ea1ddfd62911f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 01 1.prefab using Guid(53f7db28c4459214ea1ddfd62911f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8842fa6631f08c36a71a55c152591b') in 0.013076 seconds 
+  Import took 0.021063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.163157 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 01 2.prefab
+  artifactKey: Guid(ae5272bddd8ca1643824ba8d588f5b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 01 2.prefab using Guid(ae5272bddd8ca1643824ba8d588f5b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c00a019c049bf7a34aa8e15d2acdea') in 0.010726 seconds 
+  Import took 0.015381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.343461 seconds.
+  path: Assets/3D Models/Tileset/Blocco erba 01 1.prefab
+  artifactKey: Guid(53f7db28c4459214ea1ddfd62911f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Blocco erba 01 1.prefab using Guid(53f7db28c4459214ea1ddfd62911f1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df26604a3940ffef4a582da775876496') in 0.013924 seconds 
+  Import took 0.019529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1090.000854 seconds.
+  path: Assets/3D Models/Tileset/Prefab Tileset
+  artifactKey: Guid(b6b4f61eb9a53ec4a8dc7fcf7249b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Prefab Tileset using Guid(b6b4f61eb9a53ec4a8dc7fcf7249b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718b8b10eb61e270da327020f43d85bd') in 0.002107 seconds 
+  Import took 0.007228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.567022 seconds.
+  path: Assets/3D Models/Tileset/Prefab Tileset/Blocco erba 02.prefab
+  artifactKey: Guid(54cbccf29751765438b53ac2336a3638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Tileset/Prefab Tileset/Blocco erba 02.prefab using Guid(54cbccf29751765438b53ac2336a3638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432c5c3415c7f1743380327d872350a2') in 0.014503 seconds 
+  Import took 0.020401 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
