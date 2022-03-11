@@ -55,6 +55,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -79,6 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8172080272054052225
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,7 +92,6 @@ GameObject:
   - component: {fileID: 8800841920863682363}
   - component: {fileID: 5588127713714843806}
   - component: {fileID: 7667927870381868116}
-  - component: {fileID: 8630617855837912775}
   m_Layer: 0
   m_Name: PTree
   m_TagString: Untagged
@@ -136,6 +137,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -160,23 +162,4 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!205 &8630617855837912775
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8172080272054052225}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: -0.054229856, y: 5.133779, z: 0.05809164}
-  m_Size: 10.2669115
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.015790317
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 7667927870381868116}
-    - renderer: {fileID: 1964985338444763491}
-  m_Enabled: 1
+  m_AdditionalVertexStreams: {fileID: 0}
