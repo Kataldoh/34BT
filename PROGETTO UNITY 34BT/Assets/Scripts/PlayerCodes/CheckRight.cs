@@ -32,5 +32,14 @@ public class CheckRight : MonoBehaviour
 
         }
 
+
     }
+
+   /* private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "WhatStopsMovement")
+        {
+            Controller.CanMoveRight = true;
+        }
+    }*/
 }

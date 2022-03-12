@@ -25,6 +25,7 @@ public class CheckBack : MonoBehaviour
         {
             print("Obstacle on Back");
             Controller.CanMoveBack = false;
+
         }
         else
         {
@@ -32,5 +33,14 @@ public class CheckBack : MonoBehaviour
 
         }
 
+
     }
+
+    /*private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "WhatStopsMovement")
+        {
+            Controller.CanMoveBack = true;
+        }
+    }*/
 }

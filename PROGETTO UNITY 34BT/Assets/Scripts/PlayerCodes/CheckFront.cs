@@ -11,6 +11,7 @@ public class CheckFront : MonoBehaviour
 
     }
 
+    // Update is called once per frame
     void Update()
     {
 
@@ -24,12 +25,20 @@ public class CheckFront : MonoBehaviour
             print("Obstacle on Front");
             Controller.CanMoveFront = false;
         }
-        else
-        {
+       // else
+       // {
+       //     Controller.CanMoveFront = true;
 
-            Controller.CanMoveFront = true;
+       // }
 
-        }
 
     }
+
+    /*private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "WhatStopsMovement")
+        {
+            Controller.CanMoveFront = true;
+        }
+    }*/
 }
