@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
             else
             {
                 MoveRight = false;
-
+                
             }
 
 

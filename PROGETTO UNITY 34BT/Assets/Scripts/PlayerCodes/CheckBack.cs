@@ -27,7 +27,9 @@ public class CheckBack : MonoBehaviour
             Controller.CanMoveBack = false;
 
         }
-        else
+        
+
+        if (other.tag == "Walkable")
         {
             Controller.CanMoveBack = true;
 
@@ -35,6 +37,8 @@ public class CheckBack : MonoBehaviour
 
 
     }
+
+
 
     /*private void OnTriggerExit(Collider other)
     {

@@ -25,11 +25,11 @@ public class CheckFront : MonoBehaviour
             print("Obstacle on Front");
             Controller.CanMoveFront = false;
         }
-       // else
-       // {
-       //     Controller.CanMoveFront = true;
+        if (other.tag == "Walkable")
+        {
+            Controller.CanMoveFront = true;
 
-       // }
+        }
 
 
     }

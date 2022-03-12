@@ -26,7 +26,8 @@ public class CheckRight : MonoBehaviour
             print("Obstacle on Right");
             Controller.CanMoveRight = false;
         }
-        else
+
+        if (other.tag == "Walkable")
         {
             Controller.CanMoveRight = true;
 
