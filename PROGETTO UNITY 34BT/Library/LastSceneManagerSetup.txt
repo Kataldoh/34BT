@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Fantasy Forest Set/Sources/Scenes/Grid Level.unity
+- path: Assets/Scenes/First level.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
