@@ -37,11 +37,5 @@ public class CheckLeft : MonoBehaviour
     }
 
 
-    /*private void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "WhatStopsMovement")
-        {
-            Controller.CanMoveLeft = true;
-        }
-    }*/
+    
 }

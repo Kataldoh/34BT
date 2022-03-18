@@ -103,7 +103,7 @@ Material:
     - _WindQuality: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.36725703, g: 0.5943396, b: 0.38348165, a: 1}
+    - _Color: {r: 0.05090778, g: 0.400911, b: 0.5188679, a: 0.64705884}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
     - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
