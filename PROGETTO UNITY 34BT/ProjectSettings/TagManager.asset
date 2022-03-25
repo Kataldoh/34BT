@@ -6,6 +6,7 @@ TagManager:
   tags:
   - WhatStopsMovement
   - Walkable
+  - P.Process
   layers:
   - Default
   - TransparentFX

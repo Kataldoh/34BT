@@ -9,7 +9,6 @@ public class PlayerController : MonoBehaviour
     public bool CanMoveBack = true;
     public bool CanMoveLeft = true;
     public bool CanMoveRight = true;
-    public bool IsNearObstacle;
 
     [Header("Check per il movimento")]
     public bool MoveFront;
@@ -34,8 +33,6 @@ public class PlayerController : MonoBehaviour
     [Header("Oggetto che determina lo spostamento")]
     public Transform movePoint;
 
-    [Header("Layer da associare alle collisioni")]
-    public LayerMask whatStopsMovement;
 
 
     Quaternion targetAngle_90 = Quaternion.Euler(0, 90, 0);
@@ -73,8 +70,17 @@ public class PlayerController : MonoBehaviour
         if (Vector3.Distance(transform.position, movePoint.position) == 0f)
         {
 
+
             if ((Input.GetAxisRaw("Horizontal")) == 1f && CanMoveRight)
             {
+                if(GameController.instance.randomEncounterChance!= 100f)
+                {
+                    GameController.instance.randomEncounterChance = GameController.instance.randomEncounterChance + Random.Range(1, 10);
+                    Debug.Log("Encounter chanche is " + GameController.instance.randomEncounterChance);
+                }
+               
+                GameController.instance._playerState = PlayerState.groundMoving;
+
                 MoveRight = true;
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
 
@@ -88,16 +94,29 @@ public class PlayerController : MonoBehaviour
                 FacingLeft = false;
                 FacingRight = true;
 
+
+
             }
             else
             {
                 MoveRight = false;
-                
+
+                GameController.instance._playerState = PlayerState.idle;
+
             }
 
 
             if ((Input.GetAxisRaw("Horizontal")) == -1f && CanMoveLeft)
             {
+                if (GameController.instance.randomEncounterChance != 100f)
+                {
+                    GameController.instance.randomEncounterChance = GameController.instance.randomEncounterChance + Random.Range(1, 10);
+                    Debug.Log("Encounter chanche is " + GameController.instance.randomEncounterChance);
+                }
+
+                GameController.instance._playerState = PlayerState.groundMoving;
+
+
                 MoveLeft = true;
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
 
@@ -115,12 +134,21 @@ public class PlayerController : MonoBehaviour
             else
             {
                 MoveLeft = false;
+                GameController.instance._playerState = PlayerState.idle;
 
             }
 
 
             if ((Input.GetAxisRaw("Vertical")) == 1f && CanMoveFront)
             {
+
+                if (GameController.instance.randomEncounterChance != 100f)
+                {
+                    GameController.instance.randomEncounterChance = GameController.instance.randomEncounterChance + Random.Range(1, 10);
+                    Debug.Log("Encounter chanche is " + GameController.instance.randomEncounterChance);
+                }
+
+                GameController.instance._playerState = PlayerState.groundMoving;
 
                 MoveFront = true;
                 movePoint.position += new Vector3(0f, 0f, Input.GetAxisRaw("Vertical"));
@@ -141,12 +169,21 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
+                GameController.instance._playerState = PlayerState.idle;
+
                 MoveFront = false;
             }
 
 
             if ((Input.GetAxisRaw("Vertical")) == -1f && CanMoveBack)
             {
+                if (GameController.instance.randomEncounterChance != 100f)
+                {
+                    GameController.instance.randomEncounterChance = GameController.instance.randomEncounterChance + Random.Range(1, 10);
+                    Debug.Log("Encounter chanche is " + GameController.instance.randomEncounterChance);
+                }
+
+                GameController.instance._playerState = PlayerState.groundMoving;
 
                 MoveBack = true;
                 movePoint.position += new Vector3(0f, 0f, Input.GetAxisRaw("Vertical"));
@@ -166,6 +203,8 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
+                GameController.instance._playerState = PlayerState.idle;
+
                 MoveBack = false;
 
             }
