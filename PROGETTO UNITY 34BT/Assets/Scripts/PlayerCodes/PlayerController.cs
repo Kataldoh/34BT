@@ -17,11 +17,19 @@ public class PlayerController : MonoBehaviour
     public bool MoveLeft;
     public bool MoveRight;
 
-   
+    [Header("Direzioni")]
+    public bool FacingFront;
+    public bool FacingBack;
+    public bool FacingRight;
+    public bool FacingLeft;
 
 
     [Header("Velocit� player")]
     public float moveSpeed = 3f;
+
+    [Header("Velocit� rotazione player")]
+    public float rotSpeed = 3f * Time.deltaTime;
+
 
     [Header("Oggetto che determina lo spostamento")]
     public Transform movePoint;
@@ -29,6 +37,13 @@ public class PlayerController : MonoBehaviour
     [Header("Layer da associare alle collisioni")]
     public LayerMask whatStopsMovement;
 
+
+    Quaternion targetAngle_90 = Quaternion.Euler(0, 90, 0);
+    Quaternion targetAngle_0 = Quaternion.Euler(0, 0, 0);
+    Quaternion targetAngle_minus90 = Quaternion.Euler(0, -90, 0);
+    Quaternion targetAngle_minus180 = Quaternion.Euler(0, -180, 0);
+
+    private float rot;
 
 
 
@@ -41,7 +56,6 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
 
 
 
@@ -64,6 +78,16 @@ public class PlayerController : MonoBehaviour
                 MoveRight = true;
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
 
+                rot = 90f;
+
+                Quaternion qrot = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, rot, 0), Time.deltaTime * rotSpeed);
+                transform.rotation = qrot;
+
+                FacingBack = false;
+                FacingFront = false;
+                FacingLeft = false;
+                FacingRight = true;
+
             }
             else
             {
@@ -76,6 +100,16 @@ public class PlayerController : MonoBehaviour
             {
                 MoveLeft = true;
                 movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+
+                rot = -90f;
+
+                Quaternion qrot = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, rot, 0), Time.deltaTime * rotSpeed);
+                transform.rotation = qrot;
+
+                FacingBack = false;
+                FacingFront = false;
+                FacingLeft = true;
+                FacingRight = false;
 
             }
             else
@@ -92,6 +126,18 @@ public class PlayerController : MonoBehaviour
                 movePoint.position += new Vector3(0f, 0f, Input.GetAxisRaw("Vertical"));
 
 
+                rot = 0f;
+
+                Quaternion qrot = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, rot, 0), Time.deltaTime * rotSpeed);
+                transform.rotation = qrot;
+
+                FacingBack = false;
+                FacingFront = true;
+                FacingLeft = false;
+                FacingRight = false;
+
+
+
             }
             else
             {
@@ -105,11 +151,43 @@ public class PlayerController : MonoBehaviour
                 MoveBack = true;
                 movePoint.position += new Vector3(0f, 0f, Input.GetAxisRaw("Vertical"));
 
+                rot = -180f; 
+
+                Quaternion qrot = Quaternion.Lerp(transform.rotation, Quaternion.Euler(0, rot, 0), Time.deltaTime * rotSpeed);
+                transform.rotation = qrot;
+
+                FacingBack = true;
+                FacingFront = false;
+                FacingLeft = false;
+                FacingRight = false;
+
+
 
             }
             else
             {
                 MoveBack = false;
+
+            }
+
+            if((Input.GetAxisRaw("Vertical"))== 1 && (Input.GetAxisRaw("Horizontal")) == 1)
+            {
+                movePoint.position = transform.position;
+            }
+
+            if ((Input.GetAxisRaw("Vertical")) == 1 && (Input.GetAxisRaw("Horizontal")) == -1)
+            {
+                movePoint.position = transform.position;
+            }
+
+            if ((Input.GetAxisRaw("Vertical")) == -1 && (Input.GetAxisRaw("Horizontal")) == 1)
+            {
+                movePoint.position = transform.position;
+            }
+
+            if ((Input.GetAxisRaw("Vertical")) == -1 && (Input.GetAxisRaw("Horizontal")) == -1)
+            {
+                movePoint.position = transform.position;
             }
         }
     }
