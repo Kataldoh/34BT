@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Birch Trees Leaves
   m_Shader: {fileID: 4800000, guid: 99134b1f0c27d54469a840832a28fadf, type: 3}
-  m_ShaderKeywords: _ALPHATEST_ON _WINDQUALITY_NONE
+  m_ShaderKeywords: EFFECT_HUE_VARIATION _ALPHATEST_ON _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -85,7 +85,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _HueVariationKwToggle: 0
+    - _HueVariationKwToggle: 1
     - _Metallic: 0
     - _Mode: 1
     - _NormalMapKwToggle: 0
@@ -106,7 +106,7 @@ Material:
     - _Color: {r: 0.05090778, g: 0.400911, b: 0.5188679, a: 0.64705884}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
-    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _HueVariationColor: {r: 0, g: 0.8301887, b: 0.51720965, a: 0.1}
     - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
